@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
         str_holiday = holiday.to_s.split("_").collect {|word| word.capitalize!}.join(" ")
         puts "  #{str_holiday}: #{supply.join(", ")}"
     end
-  end 
+  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
